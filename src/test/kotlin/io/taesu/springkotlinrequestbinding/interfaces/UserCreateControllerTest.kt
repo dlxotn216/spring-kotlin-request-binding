@@ -42,6 +42,12 @@ internal class UserCreateControllerTest {
             """
             """.trimIndent(),
 
+            // empty json -> HttpMessageNotReadableException
+            """{
+            
+            }
+            """.trimIndent(),
+
             // empty email
             """{
                 |"email": "",

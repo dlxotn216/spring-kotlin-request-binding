@@ -1,0 +1,19 @@
+{
+  "errorCode": "INVALID_REQUEST",
+  "errorMessage": "Invalid request",
+  "fieldErrors": [
+    {
+      "fieldName": "email",
+      "message": "Requested field 'email' invalid."
+    },
+    {
+      "fieldName": "name",
+      "message": "Requested field 'name' should be between 1 and 10."
+    },
+    {
+      "fieldName": "name",
+      "message": "Requested field 'name' should be between 1 and 10."
+    }
+  ],
+  "status": "fail"
+}
